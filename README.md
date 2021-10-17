@@ -1,4 +1,5 @@
 # Comp472MiniProj1
+https://github.com/kimchhengheng/Comp472MiniProj1
 
 The code for this mini project are seperate into two file
 1. Task1.py
