@@ -39,16 +39,16 @@ drugdata['BP']= drugdata['BP'].cat.codes
 classname, counts = np.unique(drugdata['Drug'], return_counts=True)
 
 # plot the distribution of class 
-# xaxis =[]
-# xaxislabel =[]
-# for i in range(len(classname)):
-#     xaxis.append(i+1)
-#     xaxislabel.append(classname[i][:5]+": "+str(counts[i]))
+xaxis =[]
+xaxislabel =[]
+for i in range(len(classname)):
+    xaxis.append(i+1)
+    xaxislabel.append(classname[i][:5]+": "+str(counts[i]))
 
-# barplt = plt.bar(xaxis, counts, tick_label = xaxislabel,
-#         width = 0.7)
-# plt.savefig("drug-distribution.pdf")
-# plt.show()
+barplt = plt.bar(xaxis, counts, tick_label = xaxislabel,
+        width = 0.7)
+plt.savefig("drug-distribution.pdf")
+plt.show()
 
 from sklearn.model_selection import train_test_split
 
@@ -176,4 +176,3 @@ def extendReport(dict,type,prefix):
 
 extendReport(allreport,"The same train test set re run 10 time",'')
 extendReport(cv_result,"Cross Validation CV 10",'test_')
-print('after')
