@@ -18,5 +18,10 @@ The code for this mini project are seperate into two file
 * Write to text file
 * Compute the average to running the program 10 time and append to text file
 
+To run these python code, 
+* Make sure you have the dataset in the same directory, or update the path to the dataset in the .py file
+* Make sure the necessary library is install such as sklearn, panda, numpy
+* For Task1.py, it could be run by terminal or click run button on the preffered IDE. However, running all the code in one time could lead the same result since the number of feature is the same. Therefore, you can comment out some part does not need and run it individuallly.
+* For Task2.py, it could be run by terminal or click run button on the preferred IDE
 
 Student name: kimchheng heng, Id 26809413
