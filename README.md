@@ -8,12 +8,12 @@ The code for this mini project are seperate into two file
 * Create the model
 * Use model to predict the data and generate the confusing matrix and classification report
 * Write to text file
-3. Task2.py
+2. Task2.py
 * Using Panda to reach data from CSV
 * Convert the ordinal and nominal feature into numberical value by using the panda.get_dummies and panda.Categorical
 * Split the data to train set and test set
 * Encode the target value by using LabelEncoder
-* Create the Model, some model used GridSearchCV
+* Create the Model, some models used GridSearchCV
 * Use model to predict the data and generate the confusing matrix and classification report
 * Write to text file
 * Compute the average to running the program 10 time and append to text file
