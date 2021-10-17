@@ -1,0 +1,238 @@
+(a) NB
+(b) The confusion matrix
+	1	0	0	2	1
+	0	1	0	3	0
+	0	0	0	4	1
+	0	0	0	6	5
+	0	0	0	4	22
+
+(c) The precision, recal and F1-measure
+
+(d) The accuracy, macro-average F1 and Weigh-average F1
+              precision    recall  f1-score   support
+
+           0       1.00      0.25      0.40         4
+           1       1.00      0.25      0.40         4
+           2       0.00      0.00      0.00         5
+           3       0.32      0.55      0.40        11
+           4       0.76      0.85      0.80        26
+
+    accuracy                           0.60        50
+   macro avg       0.61      0.38      0.40        50
+weighted avg       0.62      0.60      0.57        50
+
+(a) Base-DT
+(b) The confusion matrix
+	4	0	0	0	0
+	1	3	0	0	0
+	0	0	5	0	0
+	0	0	0	11	0
+	0	0	0	0	26
+
+(c) The precision, recal and F1-measure
+
+(d) The accuracy, macro-average F1 and Weigh-average F1
+              precision    recall  f1-score   support
+
+           0       0.80      1.00      0.89         4
+           1       1.00      0.75      0.86         4
+           2       1.00      1.00      1.00         5
+           3       1.00      1.00      1.00        11
+           4       1.00      1.00      1.00        26
+
+    accuracy                           0.98        50
+   macro avg       0.96      0.95      0.95        50
+weighted avg       0.98      0.98      0.98        50
+
+(a) Top-DT
+(b) The confusion matrix
+	4	0	0	0	0
+	4	0	0	0	0
+	0	0	0	5	0
+	0	0	0	11	0
+	0	0	0	0	26
+
+(c) The precision, recal and F1-measure
+
+(d) The accuracy, macro-average F1 and Weigh-average F1
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         4
+           1       0.00      0.00      0.00         4
+           2       0.00      0.00      0.00         5
+           3       0.69      1.00      0.81        11
+           4       1.00      1.00      1.00        26
+
+    accuracy                           0.82        50
+   macro avg       0.44      0.60      0.50        50
+weighted avg       0.71      0.82      0.75        50
+
+(a) PER
+(b) The confusion matrix
+	0	0	0	4	0
+	0	0	0	4	0
+	0	0	0	4	1
+	0	0	0	7	4
+	0	0	0	4	22
+
+(c) The precision, recal and F1-measure
+
+(d) The accuracy, macro-average F1 and Weigh-average F1
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         4
+           1       0.00      0.00      0.00         4
+           2       0.00      0.00      0.00         5
+           3       0.30      0.64      0.41        11
+           4       0.81      0.85      0.83        26
+
+    accuracy                           0.58        50
+   macro avg       0.22      0.30      0.25        50
+weighted avg       0.49      0.58      0.52        50
+
+(a) Base-MLP
+(b) The confusion matrix
+	0	0	0	2	2
+	0	0	0	4	0
+	0	0	0	3	2
+	0	0	0	4	7
+	0	0	0	1	25
+
+(c) The precision, recal and F1-measure
+
+(d) The accuracy, macro-average F1 and Weigh-average F1
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         4
+           1       0.00      0.00      0.00         4
+           2       0.00      0.00      0.00         5
+           3       0.29      0.36      0.32        11
+           4       0.69      0.96      0.81        26
+
+    accuracy                           0.58        50
+   macro avg       0.20      0.27      0.23        50
+weighted avg       0.42      0.58      0.49        50
+
+(a) Top-MLP
+(b) The confusion matrix
+	2	0	0	2	0
+	0	2	0	2	0
+	0	0	0	4	1
+	0	0	0	6	5
+	2	0	0	0	24
+
+(c) The precision, recal and F1-measure
+
+(d) The accuracy, macro-average F1 and Weigh-average F1
+              precision    recall  f1-score   support
+
+           0       0.50      0.50      0.50         4
+           1       1.00      0.50      0.67         4
+           2       0.00      0.00      0.00         5
+           3       0.43      0.55      0.48        11
+           4       0.80      0.92      0.86        26
+
+    accuracy                           0.68        50
+   macro avg       0.55      0.49      0.50        50
+weighted avg       0.63      0.68      0.64        50
+
+
+
+The same train test set re run 10 time
+NB
+	average accuracy 0.6
+	average macro-average F1 0.4
+	average weighted-average F1 0.568
+	standard deviation accuracy 0.0
+	standard deviation macro-average F1 0.0
+	standard deviation weighted-average F1 0.0
+
+Base-DT
+	average accuracy 0.98
+	average macro-average F1 0.9492
+	average weighted-average F1 0.9797
+	standard deviation accuracy 0.0
+	standard deviation macro-average F1 0.0
+	standard deviation weighted-average F1 0.0
+
+Top-DT
+	average accuracy 0.82
+	average macro-average F1 0.4963
+	average weighted-average F1 0.7526
+	standard deviation accuracy 0.0
+	standard deviation macro-average F1 0.0
+	standard deviation weighted-average F1 0.0
+
+PER
+	average accuracy 0.58
+	average macro-average F1 0.2484
+	average weighted-average F1 0.5223
+	standard deviation accuracy 0.0
+	standard deviation macro-average F1 0.0
+	standard deviation weighted-average F1 0.0
+
+Base-MLP
+	average accuracy 0.58
+	average macro-average F1 0.2253
+	average weighted-average F1 0.4898
+	standard deviation accuracy 0.0
+	standard deviation macro-average F1 0.0
+	standard deviation weighted-average F1 0.0
+
+Top-MLP
+	average accuracy 0.68
+	average macro-average F1 0.5008
+	average weighted-average F1 0.6446
+	standard deviation accuracy 0.0
+	standard deviation macro-average F1 0.0
+	standard deviation weighted-average F1 0.0
+
+
+Cross Validation CV 10
+NB
+	average accuracy 0.6
+	average macro-average F1 0.3804
+	average weighted-average F1 0.5435
+	standard deviation accuracy 0.0671
+	standard deviation macro-average F1 0.1402
+	standard deviation weighted-average F1 0.0817
+
+Base-DT
+	average accuracy 0.99
+	average macro-average F1 0.9865
+	average weighted-average F1 0.9896
+	standard deviation accuracy 0.02
+	standard deviation macro-average F1 0.0322
+	standard deviation weighted-average F1 0.0209
+
+Top-DT
+	average accuracy 0.835
+	average macro-average F1 0.5184
+	average weighted-average F1 0.7723
+	standard deviation accuracy 0.032
+	standard deviation macro-average F1 0.0192
+	standard deviation weighted-average F1 0.0403
+
+PER
+	average accuracy 0.49
+	average macro-average F1 0.2408
+	average weighted-average F1 0.3991
+	standard deviation accuracy 0.086
+	standard deviation macro-average F1 0.0672
+	standard deviation weighted-average F1 0.0763
+
+Base-MLP
+	average accuracy 0.58
+	average macro-average F1 0.2559
+	average weighted-average F1 0.4857
+	standard deviation accuracy 0.0557
+	standard deviation macro-average F1 0.0289
+	standard deviation weighted-average F1 0.053
+
+Top-MLP
+	average accuracy 0.805
+	average macro-average F1 0.6571
+	average weighted-average F1 0.7763
+	standard deviation accuracy 0.0472
+	standard deviation macro-average F1 0.1217
+	standard deviation weighted-average F1 0.0583

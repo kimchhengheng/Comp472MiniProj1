@@ -1,0 +1,8 @@
+Does the same model give you the same performance every time?
+When I Redo steps 6 for 10 time in the loop, the result is exactly the same becuase the 
+model never create new, it reuse the same instance over again with the same train and test portion. 
+Becuase the split just seperate the test data from train data.
+
+However, I got different result when I run cross validation data. Cross validation provide the ability
+to split the data into portion. Each time the program run the model would use different test and train data.
+This lead to different numerical value.
