@@ -134,3 +134,5 @@ multinomialNBSm2 = MultinomialNB(alpha=0.0009)
 multinomialNBSm2.fit(X_train_fitTran, y_train)
 y_pred_class = multinomialNBSm2.predict(countVect.transform(X_test))
 extractValueWriteToFile(multinomialNBSm2,"MulitnomialNB with smoothing value to 0.9",4,'a')
+
+# print("finish")

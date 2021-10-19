@@ -153,13 +153,14 @@ for i in range(11):
     extractValueWriteToFile("Top-MLP",'a',y_pred_class,i)
 
 
-cv_result ={}
-cv_result["NB"]= cross_validate(multinomialNB, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
-cv_result["Base-DT"] = cross_validate(decisionTreeBase, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
-cv_result["Top-DT"]= cross_validate(gd_dctree, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
-cv_result["PER"]= cross_validate(perceptron, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
-cv_result["Base-MLP"] = cross_validate(base_mlpClassifer, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
-cv_result["Top-MLP"] = cross_validate(gs, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
+# this is the cross validation part, which run more than 7 minute
+# cv_result ={}
+# cv_result["NB"]= cross_validate(multinomialNB, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
+# cv_result["Base-DT"] = cross_validate(decisionTreeBase, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
+# cv_result["Top-DT"]= cross_validate(gd_dctree, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
+# cv_result["PER"]= cross_validate(perceptron, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
+# cv_result["Base-MLP"] = cross_validate(base_mlpClassifer, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
+# cv_result["Top-MLP"] = cross_validate(gs, X, le.transform(y), cv=10 , scoring=['accuracy','f1_macro','f1_weighted'])
 
 def extendReport(dict,type,prefix):
     with open("./drugs-performance.txt" , 'a') as tf: 
@@ -175,4 +176,6 @@ def extendReport(dict,type,prefix):
         tf.close()
 
 extendReport(allreport,"The same train test set re run 10 time",'')
-extendReport(cv_result,"Cross Validation CV 10",'test_')
+# extendReport(cv_result,"Cross Validation CV 10",'test_')
+
+# print("finish")
