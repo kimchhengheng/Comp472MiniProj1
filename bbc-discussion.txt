@@ -1,13 +1,13 @@
 (a) what metric is best suited to this dataset/task and why (see step (2))
 Because the number of feature and zero frequency word is changing over time we run the code,
-the result of each model does not much different.
-However, if we have a same feature number every time we run, the model with smoothing is better for this dataset. 
+the result of each model does not much different. Because I choose to run each model differently at first.
+Then I run all model at one time, running all the model consecutively, the model with smoothing is better. But the different smoothing yield to same result 
 By adding the smoothing, the problem of zero probability could be tackle.
 Becuase zero probability would cause the muliplication become zero. There are many 
 zero frequency world in the term-document matrix of the feature.
 
 (b) why the performance of steps (8-10) are the same or are different than those of step (7) above.
-The performance of each try is not the same.
-The size of the feature or attribute would be change over time we run the program. 
-Also, the word with frequency of zero is also changing over time. This would cause all the numerical 
-calculation of precision, recall and others to change.
+If I run the model consecutively, the number of feature and frequency is the same, the number 8(try 2) has exactly the same value with number 7(try 1).
+However the number 9(try 3 0.0001) with smoothing and 10(try 3 0.9) are not the same with number 7. The value recall increase a little bit.
+The number 9 and 10 has the same result.
+The smoothing would tackle the zero probability featuere.
