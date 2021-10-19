@@ -21,8 +21,10 @@ The code for this mini project are seperate into two file
 
 To run these python code, 
 * Make sure you have the dataset in the same directory, or update the path to the dataset in the .py file
+* Make sure you python interpreter are properly set
 * Make sure the necessary library is install such as sklearn, panda, numpy
 * For Task1.py, it could be run by terminal or click run button on the preffered IDE. However, running all the code in one time could lead the same result since the number of feature is the same. Therefore, you can comment out some part does not need and run it individuallly.
 * For Task2.py, it could be run by terminal or click run button on the preferred IDE
+For task2.py, in order to run the cross validation for part 8 of task 2 , it would take more than 7 minute to finish the program
 
 Student name: kimchheng heng, Id 26809413

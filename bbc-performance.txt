@@ -1,252 +1,252 @@
 (a) MulitnomialNB default values, try 1
 
 (b) The confusion matrix
-	94	1	3	0	1
-	0	76	1	0	2
-	0	0	85	0	1
-	0	0	0	93	0
-	1	1	0	0	86
+	94	1	0	0	4
+	1	72	3	0	2
+	3	0	70	0	1
+	0	0	0	109	0
+	0	0	0	0	85
 
 (c) The precision, recal and F1-measure
 
 (d) The accuracy, macro-average F1 and Weigh-average F1
               precision    recall  f1-score   support
 
-           0       0.99      0.95      0.97        99
-           1       0.97      0.96      0.97        79
-           2       0.96      0.99      0.97        86
-           3       1.00      1.00      1.00        93
-           4       0.96      0.98      0.97        88
+           0       0.96      0.95      0.95        99
+           1       0.99      0.92      0.95        78
+           2       0.96      0.95      0.95        74
+           3       1.00      1.00      1.00       109
+           4       0.92      1.00      0.96        85
 
-    accuracy                           0.98       445
-   macro avg       0.97      0.98      0.97       445
-weighted avg       0.98      0.98      0.98       445
+    accuracy                           0.97       445
+   macro avg       0.97      0.96      0.96       445
+weighted avg       0.97      0.97      0.97       445
 
 (e) the prior probability of each class(consider only the test class 80% = 1780)
 	business has probability : 0.1847
-	entertainment has probability : 0.138
-	politics has probability : 0.1488
-	sport has probability : 0.1879
-	tech has probability : 0.1407
+	entertainment has probability : 0.1384
+	politics has probability : 0.1542
+	sport has probability : 0.1807
+	tech has probability : 0.142
 
-(f) the size of the vocabulary 26785
+(f) the size of the vocabulary 26895
 
 (g) the number of word-tokens in each class
-	business has word-tokens : 131861.0
-	entertainment has word-tokens : 101123.0
-	politics has word-tokens : 144955.0
-	sport has word-tokens : 133670.0
-	tech has word-tokens : 157404.0
+	business has word-tokens : 133649.0
+	entertainment has word-tokens : 97929.0
+	politics has word-tokens : 150147.0
+	sport has word-tokens : 128498.0
+	tech has word-tokens : 156529.0
 
-(h) the number of word-tokens in the entire corpus 669013.0
+(h) the number of word-tokens in the entire corpus 666752.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-	business has number of word with a frquency of zero : 16177
-	entertainment has number of word with a frquency of zero : 16167
-	politics has number of word with a frquency of zero : 16822
-	sport has number of word with a frquency of zero : 17233
-	tech has number of word with a frquency of zero : 15729
+	business has number of word with a frquency of zero : 16130
+	entertainment has number of word with a frquency of zero : 16434
+	politics has number of word with a frquency of zero : 16618
+	sport has number of word with a frquency of zero : 17336
+	tech has number of word with a frquency of zero : 15944
 
-	business has percentage of word with a frquency of zero : 0.1227
-	entertainment has percentage of word with a frquency of zero : 0.1599
-	politics has percentage of word with a frquency of zero : 0.116
-	sport has percentage of word with a frquency of zero : 0.1289
-	tech has percentage of word with a frquency of zero : 0.0999
+	business has percentage of word with a frquency of zero : 0.1207
+	entertainment has percentage of word with a frquency of zero : 0.1678
+	politics has percentage of word with a frquency of zero : 0.1107
+	sport has percentage of word with a frquency of zero : 0.1349
+	tech has percentage of word with a frquency of zero : 0.1019
 
 (j) the number and percentage of words with a frequency of zero in the entire corpus
-	The number of word with a frquency of zero within the corpus 82128
-	The number of word with a frquency of zero within the corpus 0.1228
+	The number of word with a frquency of zero within the corpus 82462
+	The number of word with a frquency of zero within the corpus 0.1237
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-	word zooms has the log probbility of [-11.97443058 -11.75906653 -12.05373698 -11.98576881 -11.02510539]
-	word yougov has the log probbility of [-11.97443058 -11.75906653 -10.66744262 -11.98576881 -12.12371768]
+	word zones has the log probbility of [-11.98632333 -11.73466002 -12.08414227 -11.95371267 -11.42640851]
+	word younger has the log probbility of [-10.88771104  -9.65521848  -9.51919291  -9.87427113  -9.48049836]
 
 (a) MulitnomialNB default values, try 2
 
 (b) The confusion matrix
-	100	0	4	0	4
-	1	84	2	0	1
-	0	1	69	0	0
-	1	0	0	114	0
-	0	0	0	0	64
+	94	1	0	0	4
+	1	72	3	0	2
+	3	0	70	0	1
+	0	0	0	109	0
+	0	0	0	0	85
 
 (c) The precision, recal and F1-measure
 
 (d) The accuracy, macro-average F1 and Weigh-average F1
               precision    recall  f1-score   support
 
-           0       0.98      0.93      0.95       108
-           1       0.99      0.95      0.97        88
-           2       0.92      0.99      0.95        70
-           3       1.00      0.99      1.00       115
-           4       0.93      1.00      0.96        64
+           0       0.96      0.95      0.95        99
+           1       0.99      0.92      0.95        78
+           2       0.96      0.95      0.95        74
+           3       1.00      1.00      1.00       109
+           4       0.92      1.00      0.96        85
 
     accuracy                           0.97       445
-   macro avg       0.96      0.97      0.97       445
+   macro avg       0.97      0.96      0.96       445
 weighted avg       0.97      0.97      0.97       445
 
 (e) the prior probability of each class(consider only the test class 80% = 1780)
-	business has probability : 0.1807
-	entertainment has probability : 0.1339
-	politics has probability : 0.156
-	sport has probability : 0.178
-	tech has probability : 0.1515
+	business has probability : 0.1847
+	entertainment has probability : 0.1384
+	politics has probability : 0.1542
+	sport has probability : 0.1807
+	tech has probability : 0.142
 
-(f) the size of the vocabulary 26817
+(f) the size of the vocabulary 26895
 
 (g) the number of word-tokens in each class
-	business has word-tokens : 128309.0
-	entertainment has word-tokens : 96182.0
-	politics has word-tokens : 156757.0
-	sport has word-tokens : 127090.0
-	tech has word-tokens : 167438.0
+	business has word-tokens : 133649.0
+	entertainment has word-tokens : 97929.0
+	politics has word-tokens : 150147.0
+	sport has word-tokens : 128498.0
+	tech has word-tokens : 156529.0
 
-(h) the number of word-tokens in the entire corpus 675776.0
+(h) the number of word-tokens in the entire corpus 666752.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-	business has number of word with a frquency of zero : 16374
-	entertainment has number of word with a frquency of zero : 16613
-	politics has number of word with a frquency of zero : 16384
-	sport has number of word with a frquency of zero : 17290
-	tech has number of word with a frquency of zero : 15500
+	business has number of word with a frquency of zero : 16130
+	entertainment has number of word with a frquency of zero : 16434
+	politics has number of word with a frquency of zero : 16618
+	sport has number of word with a frquency of zero : 17336
+	tech has number of word with a frquency of zero : 15944
 
-	business has percentage of word with a frquency of zero : 0.1276
-	entertainment has percentage of word with a frquency of zero : 0.1727
-	politics has percentage of word with a frquency of zero : 0.1045
-	sport has percentage of word with a frquency of zero : 0.136
-	tech has percentage of word with a frquency of zero : 0.0926
+	business has percentage of word with a frquency of zero : 0.1207
+	entertainment has percentage of word with a frquency of zero : 0.1678
+	politics has percentage of word with a frquency of zero : 0.1107
+	sport has percentage of word with a frquency of zero : 0.1349
+	tech has percentage of word with a frquency of zero : 0.1019
 
 (j) the number and percentage of words with a frequency of zero in the entire corpus
-	The number of word with a frquency of zero within the corpus 82161
-	The number of word with a frquency of zero within the corpus 0.1216
+	The number of word with a frquency of zero within the corpus 82462
+	The number of word with a frquency of zero within the corpus 0.1237
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-	word zooms has the log probbility of [-11.95199297 -11.7199315  -12.12037313 -11.9441038  -11.07831472]
-	word yougov has the log probbility of [-11.95199297 -11.7199315  -10.73407877 -11.9441038  -12.17692701]
+	word zones has the log probbility of [-11.98632333 -11.73466002 -12.08414227 -11.95371267 -11.42640851]
+	word younger has the log probbility of [-10.88771104  -9.65521848  -9.51919291  -9.87427113  -9.48049836]
 
 (a) MulitnomialNB with smoothing value to 0.0001, try 3
 
 (b) The confusion matrix
-	90	0	2	0	3
-	0	76	1	0	2
-	0	0	91	0	0
-	1	0	1	98	0
-	1	0	1	0	78
+	92	1	2	0	4
+	0	76	2	0	0
+	2	0	71	0	1
+	0	0	0	109	0
+	1	0	0	0	84
 
 (c) The precision, recal and F1-measure
 
 (d) The accuracy, macro-average F1 and Weigh-average F1
               precision    recall  f1-score   support
 
-           0       0.98      0.95      0.96        95
-           1       1.00      0.96      0.98        79
-           2       0.95      1.00      0.97        91
-           3       1.00      0.98      0.99       100
-           4       0.94      0.97      0.96        80
+           0       0.97      0.93      0.95        99
+           1       0.99      0.97      0.98        78
+           2       0.95      0.96      0.95        74
+           3       1.00      1.00      1.00       109
+           4       0.94      0.99      0.97        85
 
     accuracy                           0.97       445
    macro avg       0.97      0.97      0.97       445
 weighted avg       0.97      0.97      0.97       445
 
 (e) the prior probability of each class(consider only the test class 80% = 1780)
-	business has probability : 0.1865
-	entertainment has probability : 0.138
-	politics has probability : 0.1465
-	sport has probability : 0.1847
-	tech has probability : 0.1443
+	business has probability : 0.1847
+	entertainment has probability : 0.1384
+	politics has probability : 0.1542
+	sport has probability : 0.1807
+	tech has probability : 0.142
 
-(f) the size of the vocabulary 26627
+(f) the size of the vocabulary 26895
 
 (g) the number of word-tokens in each class
-	business has word-tokens : 133090.0
-	entertainment has word-tokens : 95883.0
-	politics has word-tokens : 143117.0
-	sport has word-tokens : 130328.0
-	tech has word-tokens : 159566.0
+	business has word-tokens : 133649.0
+	entertainment has word-tokens : 97929.0
+	politics has word-tokens : 150147.0
+	sport has word-tokens : 128498.0
+	tech has word-tokens : 156529.0
 
-(h) the number of word-tokens in the entire corpus 661984.0
+(h) the number of word-tokens in the entire corpus 666752.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-	business has number of word with a frquency of zero : 15941
-	entertainment has number of word with a frquency of zero : 16439
-	politics has number of word with a frquency of zero : 16680
-	sport has number of word with a frquency of zero : 16846
-	tech has number of word with a frquency of zero : 15677
+	business has number of word with a frquency of zero : 16130
+	entertainment has number of word with a frquency of zero : 16434
+	politics has number of word with a frquency of zero : 16618
+	sport has number of word with a frquency of zero : 17336
+	tech has number of word with a frquency of zero : 15944
 
-	business has percentage of word with a frquency of zero : 0.1198
-	entertainment has percentage of word with a frquency of zero : 0.1714
-	politics has percentage of word with a frquency of zero : 0.1165
-	sport has percentage of word with a frquency of zero : 0.1293
-	tech has percentage of word with a frquency of zero : 0.0982
+	business has percentage of word with a frquency of zero : 0.1207
+	entertainment has percentage of word with a frquency of zero : 0.1678
+	politics has percentage of word with a frquency of zero : 0.1107
+	sport has percentage of word with a frquency of zero : 0.1349
+	tech has percentage of word with a frquency of zero : 0.1019
 
 (j) the number and percentage of words with a frequency of zero in the entire corpus
-	The number of word with a frquency of zero within the corpus 81583
-	The number of word with a frquency of zero within the corpus 0.1232
+	The number of word with a frquency of zero within the corpus 82462
+	The number of word with a frquency of zero within the corpus 0.1237
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-	word zones has the log probbility of [-10.70015526 -20.68125212 -21.08177673 -20.98817043 -11.28703242]
-	word younger has the log probbility of [-11.1056037   -9.86145383 -10.26197845  -9.83190562  -9.34116512]
+	word zones has the log probbility of [-21.01333273 -20.70236584 -21.12972838 -20.97402992 -11.96091376]
+	word younger has the log probbility of [-11.10979518  -9.54610103  -9.43447302  -9.81776511  -9.39605671]
 
 (a) MulitnomialNB with smoothing value to 0.9, try 4
 
 (b) The confusion matrix
-	102	0	2	0	4
-	0	76	1	0	1
-	1	0	79	0	1
-	0	0	1	102	0
-	1	1	0	0	73
+	92	1	2	0	4
+	0	76	2	0	0
+	2	0	71	0	1
+	0	0	0	109	0
+	1	0	0	0	84
 
 (c) The precision, recal and F1-measure
 
 (d) The accuracy, macro-average F1 and Weigh-average F1
               precision    recall  f1-score   support
 
-           0       0.98      0.94      0.96       108
+           0       0.97      0.93      0.95        99
            1       0.99      0.97      0.98        78
-           2       0.95      0.98      0.96        81
-           3       1.00      0.99      1.00       103
-           4       0.92      0.97      0.95        75
+           2       0.95      0.96      0.95        74
+           3       1.00      1.00      1.00       109
+           4       0.94      0.99      0.97        85
 
     accuracy                           0.97       445
    macro avg       0.97      0.97      0.97       445
 weighted avg       0.97      0.97      0.97       445
 
 (e) the prior probability of each class(consider only the test class 80% = 1780)
-	business has probability : 0.1807
+	business has probability : 0.1847
 	entertainment has probability : 0.1384
-	politics has probability : 0.151
-	sport has probability : 0.1834
-	tech has probability : 0.1465
+	politics has probability : 0.1542
+	sport has probability : 0.1807
+	tech has probability : 0.142
 
-(f) the size of the vocabulary 26750
+(f) the size of the vocabulary 26895
 
 (g) the number of word-tokens in each class
-	business has word-tokens : 129483.0
-	entertainment has word-tokens : 97715.0
-	politics has word-tokens : 144348.0
-	sport has word-tokens : 129962.0
-	tech has word-tokens : 166730.0
+	business has word-tokens : 133649.0
+	entertainment has word-tokens : 97929.0
+	politics has word-tokens : 150147.0
+	sport has word-tokens : 128498.0
+	tech has word-tokens : 156529.0
 
-(h) the number of word-tokens in the entire corpus 668238.0
+(h) the number of word-tokens in the entire corpus 666752.0
 
 (i) the number and percentage of words with a frequency of zero in each class
-	business has number of word with a frquency of zero : 16174
-	entertainment has number of word with a frquency of zero : 16577
-	politics has number of word with a frquency of zero : 16768
-	sport has number of word with a frquency of zero : 17112
-	tech has number of word with a frquency of zero : 15502
+	business has number of word with a frquency of zero : 16130
+	entertainment has number of word with a frquency of zero : 16434
+	politics has number of word with a frquency of zero : 16618
+	sport has number of word with a frquency of zero : 17336
+	tech has number of word with a frquency of zero : 15944
 
-	business has percentage of word with a frquency of zero : 0.1249
-	entertainment has percentage of word with a frquency of zero : 0.1696
-	politics has percentage of word with a frquency of zero : 0.1162
-	sport has percentage of word with a frquency of zero : 0.1317
-	tech has percentage of word with a frquency of zero : 0.093
+	business has percentage of word with a frquency of zero : 0.1207
+	entertainment has percentage of word with a frquency of zero : 0.1678
+	politics has percentage of word with a frquency of zero : 0.1107
+	sport has percentage of word with a frquency of zero : 0.1349
+	tech has percentage of word with a frquency of zero : 0.1019
 
 (j) the number and percentage of words with a frequency of zero in the entire corpus
-	The number of word with a frquency of zero within the corpus 82133
-	The number of word with a frquency of zero within the corpus 0.1229
+	The number of word with a frquency of zero within the corpus 82462
+	The number of word with a frquency of zero within the corpus 0.1237
 
 (k) your 2 favorite words (that are present in the vocabulary) and their log-prob
-	word zones has the log probbility of [-10.67257855 -18.5031725  -18.89326489 -18.7882984  -19.0373912 ]
-	word younger has the log probbility of [-11.07789371  -9.69814725  -9.24102749  -9.98327315  -9.62629831]
+	word zones has the log probbility of [-18.81626913 -18.50536094 -18.93264709 -18.77697277 -11.96025161]
+	word younger has the log probbility of [-11.10955626  -9.54620644  -9.43454965  -9.81781826  -9.39613262]
 
